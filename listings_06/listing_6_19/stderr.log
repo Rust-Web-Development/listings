@@ -1,0 +1,21 @@
+2022-07-03T21:48:45.465286-07:00 - This is an error!
+2022-07-03T21:48:45.465338-07:00 - This is an info!
+2022-07-03T21:48:45.465357-07:00 - This is a warning
+2022-07-03T21:48:45.466145-07:00 - Server::run; addr=127.0.0.1:3030
+2022-07-03T21:48:45.466169-07:00 - listening on http://127.0.0.1:3030
+2022-07-03T21:52:24.103630-07:00 - This is an error!
+2022-07-03T21:52:24.103681-07:00 - This is an info!
+2022-07-03T21:52:24.103700-07:00 - This is a warning
+2022-07-03T21:52:24.104479-07:00 - Server::run; addr=127.0.0.1:3030
+2022-07-03T21:52:24.104503-07:00 - listening on http://127.0.0.1:3030
+{"time":"2022-07-05T22:06:22.318193-07:00","message":"This is an error!","module_path":"listing_6_17","file":"src/main.rs","line":15,"level":"ERROR","target":"listing_6_17","thread":"main","thread_id":4359570816,"mdc":{}}
+{"time":"2022-07-05T22:06:22.318501-07:00","message":"This is an info!","module_path":"listing_6_17","file":"src/main.rs","line":16,"level":"INFO","target":"listing_6_17","thread":"main","thread_id":4359570816,"mdc":{}}
+{"time":"2022-07-05T22:06:22.318532-07:00","message":"This is a warning","module_path":"listing_6_17","file":"src/main.rs","line":17,"level":"WARN","target":"listing_6_17","thread":"main","thread_id":4359570816,"mdc":{}}
+{"time":"2022-07-05T22:06:22.319328-07:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/Users/teisler/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.3.2/src/server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":4359570816,"mdc":{}}
+{"time":"2022-07-05T22:06:22.319361-07:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/Users/teisler/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.3.2/src/server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":4359570816,"mdc":{}}
+{"time":"2022-07-05T22:21:36.728954-07:00","message":"This is an error!","module_path":"listing_6_19","file":"src/main.rs","line":15,"level":"ERROR","target":"listing_6_19","thread":"main","thread_id":4327753088,"mdc":{}}
+{"time":"2022-07-05T22:21:36.729150-07:00","message":"This is an info!","module_path":"listing_6_19","file":"src/main.rs","line":16,"level":"INFO","target":"listing_6_19","thread":"main","thread_id":4327753088,"mdc":{}}
+{"time":"2022-07-05T22:21:36.729184-07:00","message":"This is a warning","module_path":"listing_6_19","file":"src/main.rs","line":17,"level":"WARN","target":"listing_6_19","thread":"main","thread_id":4327753088,"mdc":{}}
+{"time":"2022-07-05T22:21:36.729996-07:00","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/Users/teisler/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.3.2/src/server.rs","line":133,"level":"INFO","target":"warp::server","thread":"main","thread_id":4327753088,"mdc":{}}
+{"time":"2022-07-05T22:21:36.730043-07:00","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/Users/teisler/.cargo/registry/src/github.com-1ecc6299db9ec823/warp-0.3.2/src/server.rs","line":134,"level":"INFO","target":"warp::server","thread":"main","thread_id":4327753088,"mdc":{}}
+{"time":"2022-07-05T22:21:49.641878-07:00","message":"GET /questions 200 OK 97.625µs from 127.0.0.1:59028 with {\"host\": \"localhost:3030\", \"accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\", \"upgrade-insecure-requests\": \"1\", \"cookie\": \"Clion-6ca2f25c=f6b8bcbe-7e5c-432c-a513-3dd2eeec2185; Idea-d324eb73=8acd68a9-0501-413a-ab8f-f2c0728cbf6f\", \"user-agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15\", \"accept-language\": \"en-US,en;q=0.9\", \"accept-encoding\": \"gzip, deflate\", \"connection\": \"keep-alive\"}","module_path":"listing_6_19","file":"src/main.rs","line":20,"level":"INFO","target":"listing_6_19","thread":"tokio-runtime-worker","thread_id":6167474176,"mdc":{}}

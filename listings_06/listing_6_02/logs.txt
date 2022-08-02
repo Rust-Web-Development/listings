@@ -1,0 +1,7 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/listing_6_02`
+[2022-07-04T03:55:41Z ERROR listing_6_02] This is an error!
+[2022-07-04T03:55:41Z INFO  listing_6_02] This is an info!
+[2022-07-04T03:55:41Z WARN  listing_6_02] This is a warning
+[2022-07-04T03:55:41Z INFO  warp::server] Server::run; addr=127.0.0.1:3030
+[2022-07-04T03:55:41Z INFO  warp::server] listening on http://127.0.0.1:3030
